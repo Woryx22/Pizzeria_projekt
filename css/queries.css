@@ -1,0 +1,62 @@
+
+@media screen and (max-width:768px){
+    div.welcome h1{
+        font-size: 36px;
+        margin: 0;
+      }
+    a.closebtn,a i.navbar-menu{
+      display: block;
+    }
+    .container-a{
+      grid-template-columns:1fr;
+    }
+    div.welcome img{
+      width: 55%;
+    }
+    .btn-toggle{
+      right: 25px;
+      bottom: 25px;
+    }
+    .btn-toggle:hover{
+      color: #fff;
+    }
+    header{
+      background-image: none;
+      /* height: 100vh;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: 60% 0;
+      opacity: 0.5; */
+    }
+    div.welcome{
+      transform: translate(-50%,0);
+      left: 50%;
+      top: 5%;
+      text-align: center;
+      position: absolute;
+      z-index: -15;
+    }
+    #opacity-background{
+      position: absolute;
+      background-image: /*linear-gradient(rgba(243, 0, 0, 0.5), rgba(255, 0, 0, 0.5)),*/ url("../images/quin-engle-lHUdfk5WGXc-unsplash.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: 60% 0;
+      opacity: 0.4;
+      height: 100vh;
+      width: 100%;
+      z-index: -30;
+    }
+}
+
+@media screen and (max-width:575px){
+  div.welcome h1{
+    font-size: 8dvw;
+  }
+  div.welcome p.gray{
+    font-size: 4dvw;
+  }
+  div.welcome img{
+    width: 65%;
+  }
+}

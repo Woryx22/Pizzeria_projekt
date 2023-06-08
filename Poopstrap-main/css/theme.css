@@ -1,0 +1,30 @@
+body {
+    color: #222;
+    background-color: #fff;
+  }
+  body.dark-theme {
+    color: #eee;
+    background-color: #202020;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    /* defaults to dark theme */
+    body {
+      color: #eee;
+      background-color: #202020;
+    }
+    body.light-theme {
+      color: #222;
+      background-color: #fff;
+    }
+  }
+  body {
+    background: var(background-color);
+  }
+  h1,
+  p {
+    color: var(color);
+  }
+  .btn-toggle{
+    display: none;
+  }
