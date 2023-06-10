@@ -184,4 +184,30 @@ div.welcome h1{
 }
 .texta{
   align-self: center;
+  font-size: 20px;
+}
+
+
+/***** Footer *****/
+footer{
+  margin-top: 5%;
+  height: 40px;
+  background-color: #413300;
+
+}
+footer div {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
+footer div span:nth-child(2){
+  text-align: right;
+}
+footer div span{
+  width: 50%;
+  font-weight: 500;
+  }
+footer div span a img{
+  width:5%;
 }
