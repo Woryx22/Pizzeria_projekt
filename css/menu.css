@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .me-menu-back {
     height: 50vh;
     background-size: cover;
@@ -6,6 +11,7 @@
     text-align: center;
 
 }
+
 
 .me-menu-back div {
     position: absolute;
@@ -26,6 +32,14 @@
 .me-click-to-section ul li {
     display: inline-block;
     margin: 1%;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.me-click-to-section ul li:hover{
+    text-decoration: underline;
+    color: #aaaaaa;
+    transition: 0.2s;
 }
 
 .me-img-back {
