@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <header>
+        <div id="opacity-background"></div>
+        <div class="nav-background">
+            <nav>
+                <div id="closeDivDark" onclick="closeNav()"></div>
+
+                <a href="#"><img src="images/logols.svg" alt="" class="navbar-logo-small"></a>
+                <a href="#"><i class="material-icons navbar-menu" style="font-size: 44px;"
+                        onclick="openNav()">more_horiz</i></a>
+                <!-- <button class="btn-toggle">Toggle Dark-Mode</button> -->
+                <aside id="mySidenav" class="topnav"> <!--class="sidenav"-->
+                    <div><button class="btn-toggle"><i class="material-icons">emoji_objects</i></button></div>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Locations</a>
+                    <a href="#">Order</a>
+                    <a href="#">About Us</a>
+                </aside>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="me-top-menu">
+            <div class="me-menu-back">
+                <div>MENU</div>
+            </div>
+            <div class="me-click-to-section">
+                <ul>
+                    <li onclick="scrolltoa()">APPETIZERS</li>
+                    <li onclick="scrolltob()">FLATBREADS</li>
+                    <li onclick="scrolltoc()">SALADS</li>
+                    <li onclick="scrolltod()">PIZZA BY SLICE</li>
+                    <li onclick="scrolltoe()">PIZZA</li>
+                    <li onclick="scrolltof()">CALZONES</li>
+                    <li onclick="scrolltog()">LUNCH</li>
+                    <li onclick="scrolltoh()">WRAPS</li>
+                    <li onclick="scrolltoi()">DESSERTS</li>
+                </ul>
+            </div>
+        </section>
+        <section class="me-appetizers-flatbreads">
+            <div class="me-img-back"></div>
+            <div class="me-appetozers">
+                <h2   id="js-Appetizers">Appetizers</h2>
+                <table>
+                    <tr>
+                        <th>BRUSCHETTA</th>
+                        <th>CALAMARI</th>
+                    </tr>
+                    <tr>
+                        <td>toasted garlic bread served with a side of fresh roma tomatoes, basil & garlic & feta cheese
+                        </td>
+                        <td>topped with a spicy garlic sauce served with a side of marinara</td>
+                    </tr>
+                    <tr>
+                        <th>MOZZARELLA CHEESESTICKS</th>
+                        <th>HOMEMADE MEATBALLS</th>
+                    </tr>
+                    <tr>
+                        <td>Italian seasoned breading with parmesan cheese served with marinara</td>
+                        <td>served in tomato sauce and melted mozzarella</td>
+                    </tr>
+                    <tr>
+                        <th>TOASTED RAVIOLIS</th>
+                        <th>ZUCCHINI FRIES</th>
+                    </tr>
+                    <tr>
+                        <td>filled with Ricotta, Ramona, Parmesan cheese and fried to perfection served with marinara
+                        </td>
+                        <td>Italian bread battered, Parmesan cheese and fried crispy served with marinara</td>
+                    </tr>
+                    <tr>
+                        <th>CHEESY GARLIC BREAD</th>
+                        <th>HOMEMADE GARLIC & PARMESAN CHEESE PRETZEL</th>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="me-appetozers">
+                <h2 id="js-Flatbreads">Flatbreads</h2>
+                <table>
+                    <tr>
+                        <th>MARGARITA</th>
+                        <th>CHICKEN RANCH</th>
+                    </tr>
+                    <tr>
+                        <td>roma tomatoes, buffalo mozzarella, pesto & fresh basil</td>
+                        <td>grilled chicken, bacon, mozzarella & ranch dressing</td>
+                    </tr>
+                    <tr>
+                        <th>BUFFALO CHICKEN</th>
+                        <th>PEPPERONI</th>
+                    </tr>
+                    <tr>
+                        <td>grilled chicken, ranch dressing, buffalo sauce & mozzarella</td>
+                        <td>tomato sauce, mozzarella & pepperoni</td>
+                    </tr>
+
+
+                </table>
+            </div>
+        </section>
+        <section class="salads">
+            <div class="me-img-back-salad"></div>
+            <div class="me-appetozers">
+                <h2 id="js-salads">Salads</h2>
+                <table>
+                    <tr>
+                        <th>HOUSE TOSSED SALAD</th>
+                        <th>AL’S ORIGINAL CHICKEN SALAD</th>
+                    </tr>
+                    <tr>
+                        <td>spring mix, romaine lettuce, roma tomatoes, red onion, carrots, cabbage & mozzarella cheese
+                        </td>
+                        <td>marinated chicken, spring mix, romaine lettuce, roma • tomatoes, onion, green pepper,
+                            mushrooms, black olives, shredded carrots, cabbage, mozzarella & feta cheese</td>
+                    </tr>
+                    <tr>
+                        <th>FRIED CHICKEN SALAD</th>
+                        <th>GREEK SALAD</th>
+                    </tr>
+                    <tr>
+                        <td>fried chicken slices, spring mix, romaine lettuce, red cabbage, roma tomatoes, red onion,
+                            green peppers, mushrooms, black olives, shredded carrots, mozzarella & feta cheese</td>
+                        <td>feta cheese, pepperoncini peppers, imported kalamata olives over a • spring mix, romaine
+                            lettuce, roma tomatoes, onions, red cabbage, shredded carrots with a house olive oil &
+                            vinegar dressing</td>
+                    </tr>
+                    <tr>
+                        <th>GARDEN SALAD</th>
+                        <th>CHICKEN GREEK</th>
+                    </tr>
+                    <tr>
+                        <td>spring mix, romaine lettuce, roma tomatoes, red onion, green peppers, mushrooms, black
+                            olives, shredded carrots, cabbage & mozzarella</td>
+                        <td>Greek salad with chicken breast</td>
+                    </tr>
+                    <tr>
+                        <th>ANTIPASTO</th>
+                        <th>CAPRESE</th>
+                    </tr>
+                    <tr>
+                        <td>ham, genoa salami, pepperoni served over spring mix, romaine lettuce, roma tomatoes, onions,
+                            green peppers, mushrooms, black olives, carrots, cabbage, mozzarella, & house olive oil &
+                            vinegar dressing</td>
+                        <td>fresh mozzarella tomato and basil</td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+        <section class="slices">
+            <div class="me-img-back-slice"></div>
+            <div class="me-appetozers">
+                <h2 id="js-Slices">Pizza by slice</h2>
+                <table>
+                    <tr>
+                        <th>BUILD YOUR OWN PIZZA SLICE</th>
+                        <th>TRADITIONAL TOPPINGS</th>
+                    </tr>
+                    <tr>
+                        <td>Cheese Pizza (Thin Crust Only)</td>
+                        <td>Extra cheese, red onion, fresh mushrooms, green peppers, black olives, fresh broccoli, fresh
+                            spinach, pineapple,fresh roma tomato, fresh garlic, fresh basil, jalapeno peppers,
+                            pepperoni, beef, sausage, ham, anchovies, meatballs and genoa salami.</td>
+                    </tr>
+                    <tr>
+                        <th>DELUXE, VEGGIE, OR MEAT</th>
+                        <th>SPECIALTY TOPPINGS</th>
+                    </tr>
+                    <tr>
+                        <td>No Substitutions on Deluxe, Veggie or Meat Pizza please!</td>
+                        <td>Feta cheese, chicken, kalamata olives, bacon</td>
+                    </tr>
+                    <tr>
+                        <th>VEGAN TOPPINGS</th>
+
+                    </tr>
+                    <tr>
+                        <td>Vegan cheese, pepperoni and sausage.</td>
+
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="pizza">
+            <div class="me-img-back-pizza"></div>
+            <div class="me-appetozers">
+                <h2 id="js-Pizza">Pizzas</h2>
+                <table>
+                    <tr>
+                        <th>Margherita</th>
+                        <th>Pepperoni</th>
+                    </tr>
+                    <tr>
+                        <td>Tomato sauce, Mozzarella cheese, Fresh basil leaves</td>
+                        <td>Tomato sauce, Mozzarella cheese, Pepperoni slices</td>
+                    </tr>
+                    <tr>
+                        <th>Hawaiian</th>
+                        <th>BBQ Chicken</th>
+                    </tr>
+                    <tr>
+                        <td>Tomato sauce, Mozzarella cheese, Ham, Pineapple chunks</td>
+                        <td>BBQ sauce, Mozzarella cheese, Grilled chicken, Red onions, Cilantro</td>
+                    </tr>
+                    <tr>
+                        <th>Veggie Supreme</th>
+                        <th>Meat Lover's</th>
+                    </tr>
+                    <tr>
+                        <td>Tomato sauce, Mozzarella cheese, Bell peppers, Red onions, Mushrooms, Black olives</td>
+                        <td>Tomato sauce, Mozzarella cheese, Pepperoni, Sausage, Bacon, Ground beef</td>
+                    </tr>
+                    <tr>
+                        <th>Four Cheese</th>
+                        <th>Supreme</th>
+                    </tr>
+                    <tr>
+                        <td>Tomato sauce, Mozzarella cheese, Parmesan</td>
+                        <td>Tomato sauce, Mozzarella cheese, Pepperoni, Sausage, Bell peppers, Red onions, Black olives,
+                            Mushrooms</td>
+                    </tr>
+                    <tr>
+                        <th>Mediterranean</th>
+                        <th>Buffalo Chicken</th>
+                    </tr>
+                    <tr>
+                        <td>Tomato sauce, Mozzarella cheese, Feta cheese, Spinach, Kalamata olives, Red onions, Tomatoes
+                        </td>
+                        <td>Buffalo sauce, Mozzarella cheese, Grilled chicken, Red onions, Ranch dressing, Fresh
+                            cilantro</td>
+                    </tr>
+                    <tr>
+                        <th>BBQ Bacon</th>
+                        <th>Spinach and Feta</th>
+                    </tr>
+                    <tr>
+                        <td>BBQ sauce, Mozzarella cheese, Bacon, Red onions, Jalapeños, Cilantro</td>
+                        <td>Tomato sauce, Mozzarella cheese, Spinach, Feta cheese, Red onions, Black olives</td>
+                    </tr>
+                    <tr>
+                        <th>Chicken Alfredo</th>
+                        <th>Pesto Chicken</th>
+                    </tr>
+                    <tr>
+                        <td>Alfredo sauce, Mozzarella cheese, Grilled chicken, Broccoli, Parmesan cheese</td>
+                        <td>Pesto sauce, Mozzarella cheese, Grilled chicken, Sun-dried tomatoes, Red onions, Fresh basil
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Mediterranean Veggie</th>
+                        <th>Taco Pizza</th>
+                    </tr>
+                    <tr>
+                        <td>Tomato sauce, Mozzarella cheese, Spinach, Roasted red peppers, Artichoke hearts, Feta
+                            cheese, Kalamata olives</td>
+                        <td>Salsa, Seasoned ground beef, Mozzarella cheese, Cheddar cheese, Tomatoes, Lettuce, Sour
+                            cream</td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+        <section class="calzone">
+            <div class="me-img-back-calzone"></div>
+            <div class="me-appetozers">
+                <h2 id="js-Calzones">Calzones</h2>
+                <table>
+                    <tr>
+                        <th>CHEESE</th>
+                        <th>DELUXE</th>
+                    </tr>
+                    <tr>
+                        <td>ricotta & mozzarella or create-your-own with our toppings (ea. filling 1. / Specialty 2. /
+                            Vegan filling each 3.)</td>
+                        <td>meats, cheeses, and veggies</td>
+                    </tr>
+                    <tr>
+                        <th>VEGGIE</th>
+                        <th>ALL MEAT</th>
+                    </tr>
+                    <tr>
+                        <td>green peppers, onions, broccoli, roma tomatoes, mushroom, olives & spinach</td>
+                        <td>pepperoni, Italian sausage, beef, ham & bacon</td>
+                    </tr>
+                    <tr>
+                        <th>BUFFALO CHICKEN</th>
+                        <th>MEDITERRANEAN</th>
+                    </tr>
+                    <tr>
+                        <td>mozzarella, buffalo sauce, chicken & a side of ranch dressing</td>
+                        <td>pinach & feta cheese</td>
+                    </tr>
+                    <tr>
+                        <th>BARBECUE</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>chicken, red onion, barbeque sauce, ricotta, mozzarella & fresh basil</td>
+                        <td></td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+        <section class="lunch">
+            <div class="me-img-back-lunch"></div>
+            <div class="me-appetozers">
+                <h2 id="js-Lunch">Lunch</h2>
+                <table>
+                    <tr>
+                        <th>SPAGHETTI OR FETTUCCINE</th>
+                        <th>GLUTEN FREE PASTA</th>
+                    </tr>
+                    <tr>
+                        <td>choice of marinara with meatballs, garlic butter & parmesan, meat sauce, Alfredo Sauce</td>
+                        <td>choice of marinara with meatballs, garlic butter & parmesan, meat sauce, Alfredo Sauce</td>
+                    </tr>
+                    <tr>
+                        <th>LASAGNA</th>
+                        <th>CHICKEN PARMIGIANA</th>
+                    </tr>
+                    <tr>
+                        <td>layers of meat & cheeses</td>
+                        <td>chicken breast topped with marinara sauce, melted mozzarella served with spaghetti</td>
+                    </tr>
+                    <tr>
+                        <th>STUFFED SHELLS</th>
+                        <th>CHICKEN FETTUCCINE ALFREDO</th>
+                    </tr>
+                    <tr>
+                        <td>fresh spinach, ricotta, mozzarella & romano cheese filled pasta shells, baked & topped with
+                            marinara sauce & melted mozzarella</td>
+                        <td>homemade Alfredo sauce with grilled chicken, fettuccine, & fresh grated romano cheese</td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+        <section class="wraps">
+            <div class="me-img-back-wrap"></div>
+            <div class="me-appetozers">
+                <h2 id="js-Wraps">Wraps</h2>
+                <table>
+                    <tr>
+                        <th>ITALIAN</th>
+                        <th>CHICKEN CAESAR</th>
+                    </tr>
+                    <tr>
+                        <td>ham, provolone, salami, pepperoni, lettuce, tomatoes, onions & mayoe</td>
+                        <td>Chicken, romaine, shredded Parmesan cheese and Al’s creamy Caesar dressing.</td>
+                    </tr>
+                    <tr>
+                        <th>GRILLED CHICKEN</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>onion, mushroom & mozzarella</td>
+                        <td></td>
+                    </tr>
+
+
+                </table>
+            </div>
+        </section>
+        <section class="dezerts">
+            <div class="me-img-back-dezert"></div>
+            <div class="me-appetozers">
+                <h2 id="js-Dezerts">Dezerts</h2>
+                <table>
+                    <tr>
+                        <th>ZEPPOLIS</th>
+                        <th>CANNOLIS</th>
+                    </tr>
+                    <tr>
+                        <td>lightly fried dough tossed in powdered sugar served with raspberry sauce</td>
+                        <td>handmade cannoli cream made with fresh whole milk ricotta impastata, mini chocolate morsels,
+                            spices & natural flavors</td>
+                    </tr>
+                    <tr>
+                        <th>NEW YORK STYLE CHEESECAKE</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>baked on a crumb crust by The Cheesecake Factory served with raspberry sauce</td>
+                        <td></td>
+                    </tr>
+
+
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <span>
+                Copyright ©2023, All Rights Reserved
+            </span>
+            <span>
+                <a href=""><img src="images/instagram-svgrepo-com.svg" alt=""></a>
+                <a href=""><img src="images/facebook-svgrepo-com.svg" alt=""></a>
+            </span>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

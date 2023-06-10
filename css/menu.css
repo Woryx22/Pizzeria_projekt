@@ -1,0 +1,161 @@
+.me-menu-back {
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background: url(../images/menuu.jpg);
+    text-align: center;
+
+}
+
+.me-menu-back div {
+    position: absolute;
+    margin-top: 25vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.me-click-to-section ul {
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.me-click-to-section ul li {
+    display: inline-block;
+    margin: 1%;
+}
+
+.me-img-back {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(../images/fries.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+}
+
+.me-appetozers h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.me-appetozers table {
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+th,
+td {
+    width: 50%
+}
+
+.me-appetozers table th {
+    color: #c49f1b;
+    text-transform: uppercase;
+    padding-left: 2%;
+}
+
+.me-appetozers table td {
+    padding-bottom: 2%;
+    padding-left: 2%;
+
+}
+
+.me-img-back-salad {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(../images/salad.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+}
+
+.me-img-back-slice {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(../images/slice.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+}
+
+.me-img-back-pizza {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(../images/pizza-aa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+}
+
+.me-img-back-calzone {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(../images/calzone.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+}
+
+.me-img-back-lunch {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(../images/pasta.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+}
+
+.me-img-back-wrap {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(../images/wrap.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+}
+
+.me-img-back-dezert {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(../images/dezert.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+}
+
+
+@media screen and (max-width: 768px) {
+    .me-appetozers table{
+        width: 100%;
+    }
+
+    .me-img-back-salad,
+    .me-img-back-slice,
+    .me-img-back-pizza,
+    .me-img-back-calzone,
+    .me-img-back-lunch,
+    .me-img-back-wrap,
+    .me-img-back-dezert{
+        background-position: 50%;
+    }
+
+    /* .salads table {
+      display: block;
+    }
+  
+    .salads th,
+    .salads td {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .salads th:nth-child(2),
+    .salads td:nth-child(2) {
+      margin-top: 20px;
+    } */
+  }
+
+  
+  
+  
+  

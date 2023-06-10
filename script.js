@@ -32,8 +32,9 @@ else{
 }
 function openNav() {
   document.getElementById("mySidenav").style.width = panelWidth;
-  document.getElementById("welcome").style.display = "none";
   document.getElementById("closeDivDark").style.width ="100%";
+  document.getElementById("welcome").style.display = "none";
+
 };
 
 function closeNav() {
@@ -41,5 +42,42 @@ function closeNav() {
   document.getElementById("closeDivDark").style.width ="0";
   document.getElementById("welcome").style.display = "block";
 };
+
+function scrolltoa(){
+  var scrollDiv = document.getElementById("js-Appetizers").offsetTop;
+  window.scrollTo({ top: scrollDiv-80, behavior: 'smooth'});
+}
+function scrolltob(){
+  var scrollDiv = document.getElementById("js-Flatbreads").offsetTop;
+  window.scrollTo({ top: scrollDiv-80, behavior: 'smooth'});
+}
+function scrolltoc(){
+  var scrollDiv = document.getElementById("js-salads").offsetTop;
+  window.scrollTo({ top: scrollDiv-80, behavior: 'smooth'});
+}
+function scrolltod(){
+  var scrollDiv = document.getElementById("js-Slices").offsetTop;
+  window.scrollTo({ top: scrollDiv-80, behavior: 'smooth'});
+}
+function scrolltoe(){
+  var scrollDiv = document.getElementById("js-Pizza").offsetTop;
+  window.scrollTo({ top: scrollDiv-80, behavior: 'smooth'});
+}
+function scrolltof(){
+  var scrollDiv = document.getElementById("js-Calzones").offsetTop;
+  window.scrollTo({ top: scrollDiv-80, behavior: 'smooth'});
+}
+function scrolltog(){
+  var scrollDiv = document.getElementById("js-Lunch").offsetTop;
+  window.scrollTo({ top: scrollDiv-80, behavior: 'smooth'});
+}
+function scrolltoh(){
+  var scrollDiv = document.getElementById("js-Wraps").offsetTop;
+  window.scrollTo({ top: scrollDiv-80, behavior: 'smooth'});
+}
+function scrolltoi(){
+  var scrollDiv = document.getElementById("js-Dezerts").offsetTop;
+  window.scrollTo({ top: scrollDiv-80, behavior: 'smooth'});
+}
 
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body>
+    <header>
+        <div id="opacity-background"></div>
+        <div class="nav-background">
+            <nav>
+                <div id="closeDivDark" onclick="closeNav()"></div>
+
+                <a href="#"><img src="images/logols.svg" alt="" class="navbar-logo-small"></a>
+                <a href="#"><i class="material-icons navbar-menu" style="font-size: 44px;"
+                        onclick="openNav()">more_horiz</i></a>
+                <!-- <button class="btn-toggle">Toggle Dark-Mode</button> -->
+                <aside id="mySidenav" class="topnav"> <!--class="sidenav"-->
+                    <div><button class="btn-toggle"><i class="material-icons">emoji_objects</i></button></div>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Locations</a>
+                    <a href="#">Order</a>
+                    <a href="#">About Us</a>
+                </aside>
+            </nav>
+        </div>
+    </header>
+    <script src="script.js"></script>
+
+</body>
+</html>
