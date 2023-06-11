@@ -24,7 +24,7 @@ main{
 .lo-section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 10%;
+    margin-bottom: 12%;
 }
 .lo-section h3{
     color: #c49f1b;
