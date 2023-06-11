@@ -48,6 +48,24 @@
       z-index: -30;
     }
 
+    .imgbackground{
+      display: none;
+    }
+
+    .container{
+      grid-template-columns: 1fr;
+    }
+    .texta{
+      order: 1;
+      width: 95%;
+      margin: 0 auto;
+    }
+    .imagea{
+      order: 2;
+    }
+    .imagea img{
+      width: 80vw;
+    }
 }
 
 @media screen and (max-width:575px){

@@ -53,6 +53,27 @@ function closeNav() {
   document.getElementById("closeDivDark").style.width ="0";
   document.getElementById("welcome").style.display = "block";
 };
+
+// select all .project elements
+const projects = document.querySelectorAll(".project");
+
+projects.forEach(function(project) {
+  project.classList.add("hide-for-fade-in");
+});
+
+projects.forEach(function(project) {
+  window.addEventListener("scroll", function() {
+    let scroll = window.scrollY;
+    if (scroll > project.offsetTop - 640) {
+      project.classList.add("fade-in");
+    }
+  });
+});
+
+
+
+
+
 /***** scroll to na menu.html *****/
 function scrolltoa(){
   var scrollDiv = document.getElementById("js-Appetizers").offsetTop;
