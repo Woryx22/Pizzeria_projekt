@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/locations.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/scrollbar.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
+
 <body>
     <header>
         <div id="opacity-background"></div>
@@ -32,7 +35,85 @@
             </nav>
         </div>
     </header>
+    <main>
+        <div class="empty"></div>
+        <div class="lo-container-select">
+            <div onclick="section1()" id="js-select-1">Elm Street</div>
+            <div onclick="section2()" id="js-select-2">Maple Avenue</div>
+            <div onclick="section3()" id="js-select-3">Bake and sell</div>
+        </div>
+        <section class="lo-section lo-section1" id="js-sec1">
+            <div>
+                Fancy a delicious handmade pizza fresh from the oven? Order a large 40cm pizza for work or home. We
+                deliver for free in Trutnov. Don't want to wait for delivery? Choose from the <a href="menu.html">menu</a>, call us with
+                your wishes and pick up your pizza on the square. The crispy delicacy according to the authentic Italian
+                recipe is already baking for <br><br>
+
+                <h3>NEW: Pizza home</h3>
+                Are you planning a family celebration or a party for friends? Don't feel like cooking? Buy a frozen
+                pizza at the branch. At home, just pop it in the oven for 3-5 minutes and you're good to go. The
+                pre-baked pizza is smaller, but just as good! Will this yummy pizza last up to 2 months in the freezer
+                or will you eat it sooner? <br><br>
+                <h3>Address:</h3>
+                123 Elm Street, Washington, DC 20001
+
+            </div>
+            <div>
+                <img src="images/loc1.png" alt="">
+            </div>
+        </section>
+        <section class="lo-section lo-section2" id="js-sec2">
+            <div>
+                Experience a unique spectacle! Professional pizza makers will prepare a large pizza more than 40cm high
+                right in front of your eyes. It will be a concert! Choose the classics or a combination inspired by the
+                diverse flavours of real mafiosi. We've personally tested them all, but only the best have earned the
+                right to be on our <a href="menu.html">menu</a>. <br><br>
+
+                <h3>NEW: More pizza for later</h3>
+                You can now also order frozen pizza. It's just as good, just a little smaller to fit in your oven. If
+                you don't eat it right away, it will keep in the freezer in top quality for up to 2 months. Get ready
+                for a family get-together or a get-together with friends early. <br><br>
+                <h3>Address:</h3>
+                456 Maple Avenue, Seattle, WA 98101
+            </div>
+            <div>
+                <img src="images/loc2.png" alt="">
+            </div>
+        </section>
+        <section class="lo-section lo-section3" id="js-sec3">
+            <div>
+                You too can treat your customers to the pizzeria's renowned fresh handmade King Benny pizza. You don't
+                have to have a professional pizza maker on your team or a special oven in your shop. Italian recipe
+                dough, quality ingredients and the unique taste of stone baked pizza will all be there! We are the only
+                Czech manufacturer that prepares frozen pizzas by hand using the same process as in the shop. We just
+                don't bake them all the way through. The final step is up to you. <br><br>
+
+                We leave nothing to chance. King Benny pizza must taste the same everywhere, every time. That's why the
+                pre-baked pizzas are made by real pizzamasters from the owner families. And that they have to rotate! Up
+                to 400 pizzas with a diameter of 30 cm are produced under their hands every day. Read on to find out
+                what the secret to their delicious taste is. <br><br>
+
+                <h3>Our pre-baked pizza is a must-have?</h3>
+                <a href="order.html">Contact us!</a> Together we will fine-tune the details of our cooperation.
+            </div>
+            <div>
+                <img src="images/pizza-aa.jpg" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <span>
+                Copyright ©2023, All Rights Reserved
+            </span>
+            <span>
+                <a href=""><img src="images/instagram-svgrepo-com.svg" alt=""></a>
+                <a href=""><img src="images/facebook-svgrepo-com.svg" alt=""></a>
+            </span>
+        </div>
+    </footer>
     <script src="script.js"></script>
 
 </body>
+
 </html>

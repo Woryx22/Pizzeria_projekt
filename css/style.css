@@ -191,11 +191,12 @@ div.welcome h1{
 /***** Footer *****/
 footer{
   margin-top: 5%;
-  height: 40px;
+  height: 60px;
   background-color: #413300;
 
 }
 footer div {
+  height: 60px;
   display: flex;
   width: 80%;
   margin: 0 auto;
@@ -207,8 +208,11 @@ footer div span:nth-child(2){
 footer div span{
   width: 50%;
   font-weight: 500;
+  /* transform: translate(0,-50%); */
+  color: #fff;
+
   }
 footer div span a img{
-  width:5%;
+  width:5vh;
 }
 
